@@ -1,0 +1,8 @@
+
+        int aa = 4;
+        int bb = 7;
+        int res;
+        res= aa+bb;
+        System.out.println("="+ res);
+    
+    
