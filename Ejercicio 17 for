@@ -1,0 +1,12 @@
+public static void main(String[] args) {
+        // TODO code application logic here
+       
+        for(int a= 0;2000>= a;a++){
+            if(a%10==0){
+                System.out.println(a);
+                a++;
+                
+            
+        }
+        }  
+            }
