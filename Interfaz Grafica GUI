@@ -1,0 +1,6 @@
+ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        String informacion= jTextField1.getText();
+        informacion= "hola "+ informacion;
+        JOptionPane.showMessageDialog(this,informacion, "saludo", JOptionPane.INFORMATION_MESSAGE);
+    }                             
