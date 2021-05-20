@@ -1,0 +1,19 @@
+String informacion= "Tu sistema operativo es:";
+        JRadioButton[]rdbs={jRadioButton1,jRadioButton2, jRadioButton3};
+        for(int i=0; i<rdbs.length;i++  ){
+            if(rdbs[i].isSelected()){
+                informacion+=rdbs[i].getText()+"  ";
+            }
+        }
+        JCheckBox[]ckbs={jCheckBox1,jCheckBox2,jCheckBox3};
+        informacion+="\n Tu especialidad es ";
+        for(int i =0;i< ckbs.length;i++){
+            if(ckbs[i].isSelected()){
+                informacion+= ckbs[i].getText();
+            }
+        }
+        informacion+="\n El numero de horas dedicada "+jSlider1.getValue();
+
+        JOptionPane.showMessageDialog(this,informacion,"Muestra de datos",JOptionPane.INFORMATION_MESSAGE);
+
+    }                                        
